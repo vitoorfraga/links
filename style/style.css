@@ -1,0 +1,198 @@
+/* line 1, ../Sites/Links/style/sass/_reset.scss */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+/* line 8, ../Sites/Links/style/sass/_reset.scss */
+html {
+  --black: #2e2e2e;
+  --gray: #bfbfbf;
+  font-size: 62.5%;
+}
+
+/* line 15, ../Sites/Links/style/sass/_reset.scss */
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* line 1, ../Sites/Links/style/sass/_links.scss */
+header {
+  width: 100%;
+  height: 21.4rem;
+  background-image: url(../assets/header-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 12, ../Sites/Links/style/sass/_links.scss */
+.card {
+  max-width: 35rem;
+  margin: -7rem auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 22, ../Sites/Links/style/sass/_links.scss */
+.infos {
+  margin: 1.6rem 0 0 0;
+}
+
+/* line 26, ../Sites/Links/style/sass/_links.scss */
+.infos h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--black);
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* line 34, ../Sites/Links/style/sass/_links.scss */
+.sub-info {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.8rem;
+}
+
+/* line 42, ../Sites/Links/style/sass/_links.scss */
+.sub-info h2 {
+  margin-left: 1.1rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+/* line 48, ../Sites/Links/style/sass/_links.scss */
+.links {
+  margin-top: 3.5rem;
+}
+
+/* line 52, ../Sites/Links/style/sass/_links.scss */
+.link {
+  width: 28rem;
+  height: 6.2rem;
+  margin-bottom: 1.8rem;
+  display: flex;
+  align-items: center;
+  border-radius: 0.4rem;
+  background-color: var(--black);
+  border: var(--black) solid 0.1rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  opacity: 1;
+  transition: 0.5s ease;
+}
+
+/* line 68, ../Sites/Links/style/sass/_links.scss */
+.link:hover {
+  opacity: 0.8;
+  border: #a004ff solid 0.1rem;
+}
+
+/* line 73, ../Sites/Links/style/sass/_links.scss */
+.link a {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  padding: 1.5rem 3rem;
+}
+
+/* line 82, ../Sites/Links/style/sass/_links.scss */
+.link .link-icon {
+  width: 7.6rem;
+  margin-right: 2rem;
+}
+
+/* line 87, ../Sites/Links/style/sass/_links.scss */
+.link .link-icon img {
+  margin-left: 2.4rem;
+}
+
+/* line 91, ../Sites/Links/style/sass/_links.scss */
+.link .link-nome {
+  text-align: center;
+  width: 10rem;
+  text-align: center;
+}
+
+/* line 100, ../Sites/Links/style/sass/_links.scss */
+.divisor {
+  width: 28rem;
+  height: 0.2rem;
+  margin-bottom: 1.8rem;
+  background-color: var(--black);
+}
+
+/* line 107, ../Sites/Links/style/sass/_links.scss */
+.link-alt {
+  width: 28rem;
+  height: 6.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--gray);
+  border-radius: 0.4rem;
+  border: var(--black) 0.1rem;
+  transition: 0.5s ease;
+}
+
+/* line 122, ../Sites/Links/style/sass/_links.scss */
+.link-alt:hover {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* line 126, ../Sites/Links/style/sass/_links.scss */
+.link-alt span {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+}
+
+/* line 133, ../Sites/Links/style/sass/_links.scss */
+.link-alt img {
+  widows: 24.5rem;
+  height: 10.5rem;
+  position: absolute;
+}
+
+/* line 141, ../Sites/Links/style/sass/_links.scss */
+.frase {
+  margin-top: 3.8rem;
+  text-align: center;
+  font-size: 1.4rem;
+  font-style: italic;
+  color: #7b7b7b;
+}
+
+/* line 150, ../Sites/Links/style/sass/_links.scss */
+footer {
+  width: 100%;
+  height: 8.1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 159, ../Sites/Links/style/sass/_links.scss */
+footer span {
+  font-size: 1.4rem;
+  font-weight: 100;
+  font-style: italic;
+  color: var(--gray);
+}
+
+/* line 166, ../Sites/Links/style/sass/_links.scss */
+.footer-icon img {
+  margin-bottom: 5rem;
+}
+
+/*# sourceMappingURL=style.css.map */
