@@ -1,6 +1,6 @@
 
 
-# Links 👟
+# Links 🌍
 Links é uma landing page básica que tem como objetivo reunir todos os meus links de contato. 
 > Status do Projeto: Concluido :heavy_check_mark:
 
